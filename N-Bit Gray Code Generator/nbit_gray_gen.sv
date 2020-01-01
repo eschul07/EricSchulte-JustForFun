@@ -5,8 +5,8 @@
    Redjan Shabani, Sapienza University of Rome, July 17 2012 - oeis.org/A007814 */
 
 module n_bit_gen #(
-parameter n = 3, //Gray code bit width
-parameter length = 'b1 << n)(clk, out); //2^n Sequence length
+parameter n = 3, // Gray code bit width
+parameter length = 'b1 << n)(clk, out); // 2^n Sequence length
 
 input logic clk;
 output logic [n:1] out;
@@ -22,12 +22,12 @@ shift[2] = 1'b1;
 
 for(j=3; j<=(length+1); j=j+1)
 	if (shift[j-2] != 0)begin
-		shift[j] = shift[j-(j/2)]+1'b1; //Courtesy of R. Shabani
+		shift[j] = shift[j-(j/2)]+1'b1; // This line courtesy of R. Shabani
 		seq[j-1] = 'b1 << shift[j-2];
 		seq[j-1] = seq[j-1]^seq[j-2];
 		end
 	else begin
-		shift[j] = 1'b0; //Courtesy of R. Shabani
+		shift[j] = 1'b0;
 		seq[j-1] = 'b1 << shift[j-2];
 		seq[j-1] = seq[j-1]^seq[j-2];
 		end
