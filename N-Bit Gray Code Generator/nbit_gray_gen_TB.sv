@@ -1,4 +1,4 @@
-/* Eric Schulte, Portland State University, Aug. 2019
+/* Eric Schulte, Portland State University, August 2019
    n-bit gray code generator test bench */
 
 module TB;
