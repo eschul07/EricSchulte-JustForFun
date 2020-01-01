@@ -10,4 +10,4 @@ This SystemVerilog design sequentially generates an n-bit wide, 2<sup>n</sup> le
     1. (Repeat for remaining rows until 'seq' is full)
 1. Bitwise XOR Row 2 of 'seq' with Row 1 of 'seq'
     1. (Repeat for remaining rows until 'seq' is full)
-1. Output the kth row of 'seq' on each posedge of clk signal
+1. Output the kth row of 'seq' on each positive edge of the clock signal
