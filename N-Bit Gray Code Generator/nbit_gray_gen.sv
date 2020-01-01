@@ -45,8 +45,6 @@ always_ff @(posedge clk) begin
 		end
 	else
 		out <= 'bx;
-	//for(k=1; k<=length; k=k+1)
-		//out <= seq[k];
 end
 
 endmodule
