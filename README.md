@@ -1,2 +1,3 @@
 # EricSchulte-Projects
-Personal projects I work on in my spare time.
+Personal projects I like to work on when I have spare time.
+More to come.
