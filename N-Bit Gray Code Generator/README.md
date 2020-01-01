@@ -12,4 +12,4 @@ Completed August, 2019.
     1. (Repeat for remaining rows until 'seq' is full)
 1. Bitwise XOR Row 2 of 'seq' with Row 1 of 'seq'
     1. (Repeat for remaining rows until 'seq' is full)
-1. Output the kth row of 'seq' on each positive edge of the clock signal
+1. Beginning on Row 1 of 'seq': Output each successive row of 'seq' on the positive edge of the clock signal
