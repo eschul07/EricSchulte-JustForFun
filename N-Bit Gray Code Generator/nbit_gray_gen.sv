@@ -1,4 +1,4 @@
-/* Eric Schulte, Portland State University, Aug. 2019
+/* Eric Schulte, Portland State University, August 2019
    n-bit gray code generator
    Sequentially generates an n-bit-wide, 2^n length sequence of gray code.
    A007814 sequence generation logic (denoted in comments) courtesy of:
