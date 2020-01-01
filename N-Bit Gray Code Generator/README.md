@@ -1,5 +1,6 @@
 # n-Bit Gray Code Generator
 This SystemVerilog design sequentially generates an n-bit wide, 2<sup>n</sup> length sequence of gray code.
+Completed August, 2019.
 
 ## How it works
 1. Create two arrays of length 2<sup>n</sup>: 'shift' and 'seq'
