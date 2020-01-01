@@ -2,5 +2,6 @@
 This design sequentially generates an n-bit-wide, 2^n length sequence of gray code.
 
 ## How it works
-asdf
+1. asdf
+2. asdf
 
